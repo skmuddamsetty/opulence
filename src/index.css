@@ -44,6 +44,8 @@ html {
   --color-grey-dark-1: #333;
   --color-grey-dark-2: #777;
   --color-grey-dark-3: #999;
+  /* color: #61dafb;
+  background-color: #282c34; */
 
   --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, 0.3);
   --shadow-light: 0 2rem 5rem rgba(0, 0, 0, 0.06);
@@ -60,7 +62,7 @@ body {
     var(--color-primary) 7.9%,
     var(--color-primary-light) 94.1%
   );
-  color: var(--color-primary-dark);
+  color: var(--color-light-1);
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
